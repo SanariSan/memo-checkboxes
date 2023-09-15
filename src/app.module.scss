@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+
+  .card {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+
+    border: 1px solid black;
+
+    .base {
+      width: fit-content;
+      padding: 5px;
+      background-color: lightsteelblue;
+    }
+
+    .checkboxesContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: wheat;
+    }
+  }
+}
