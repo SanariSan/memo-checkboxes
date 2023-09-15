@@ -27,6 +27,7 @@
     "@types/react-lazy-load-image-component": "^1.5.2",
     "customize-cra": "^1.0.0",
     "eslint-config-prettier": "^8.8.0",
+    "gh-pages": "^6.0.0",
     "prettier": "^2.7.1",
     "react-app-rewired": "^2.2.1",
     "sass": "^1.55.0",
@@ -39,6 +40,8 @@
     "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
+    "predeploy": "yarn run build",
+    "deploy": "node ./node_modules/gh-pages/bin/gh-pages.js -d build",
     "---style": "---------------------------------------------------------------",
     "format:check": "./node_modules/prettier/bin-prettier.js -c --config ./.prettierrc ./src",
     "format:write": "node ./node_modules/prettier/bin-prettier.js -w --config ./.prettierrc ./src"
