@@ -1,6 +1,7 @@
 {
-  "name": "checkboxes",
+  "name": "memo-checkboxes",
   "version": "0.1.0",
+  "homepage": "https://sanarisan.github.io/memo-checkboxes",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
